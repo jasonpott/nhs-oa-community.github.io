@@ -3,7 +3,7 @@ execute:
   freeze: auto
 
 # Enable banner style title blocks
-title-block-banner: true
+title-block-banner: false
 
 # Default for table of contents
 toc: false
