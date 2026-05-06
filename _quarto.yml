@@ -4,7 +4,7 @@ project:
     - CNAME
 
 website:
-  title: "NHS-OA Community Quarto website"
+  title: "NHS-OA Community website"
   description: "A community for promoting open code and tools in health and care"
   site-url: https://nhsoa.uk
   page-navigation: true
