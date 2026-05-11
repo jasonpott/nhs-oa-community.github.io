@@ -1,5 +1,74 @@
 ---
-title: "NHS Open Analytics Community"
+pagetitle: "NHS-OA Community"
+page-layout: full
+search: true
+image: img/spc_chart-1.png
+image-alt: "Statistical Process Control Chart of breaches showing the colours and logo from the \"Making Data Count\" programme"
+repo-actions: [edit, issue]
+
+about:
+  template: solana
+  image-width: 32em
+  id: hero-heading
+
+listing: 
+  - id: books
+    contents: 
+    - /books
+    - "!books/index.qmd"
+    sort: "title"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+    
+  - id: blog
+    contents: 
+    - /blog
+    - "!blog/index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
 ---
 
-NHS-R website:
+![](img/oa-logo_basic.png){fig-align="center"}
+
+<br><br>
+
+::: {#hero-heading}
+### A community for promoting open code and tools in health and care
+
+Building a community of practice for data analysis and data science using open 
+source software in the NHS and wider UK health and care system.
+
+:::
+
+## [Blog](blog/index.qmd)
+
+::: {#blog}
+:::
+
+## [Books](books/index.qmd)
+
+::: {#books}
+:::
+
+::: footer-text
+::: {.footer-container .white-background}
+::: footer-block
+::: grid
+
+::: {.g-col-12 .g-col-md-2}
+<a href='https://www.strategyunitwm.nhs.uk/'><img src='https://raw.githubusercontent.com/The-Strategy-Unit/assets/main/logo_yellow.svg' alt="The Strategy Unit" align="left" height="80" /></a>
+:::
+
+:::
+:::
+:::
+:::

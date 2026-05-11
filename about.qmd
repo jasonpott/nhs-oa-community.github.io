@@ -1,5 +1,33 @@
 ---
-title: "About"
+title: "About NHS Open Analytics Community"
+format: html
 ---
 
-About this site
+The NHS Open Analytics Community was formed in 2025 by an enthusiastic group of 
+volunteers from across the NHS. The much loved NHS-R and NHS.pycom communities
+were merged to allow a stronger voice in support of NHS analysts and data
+scientists who care about promoting the use of open code and tools in health and 
+care.
+
+We aim to promote best practice and values of transparency, sharing, and
+collaboration in the use of health and care data, but we also welcome those who
+share our values from the public sector, academia, and the third sector. 
+
+We are coding language-agnostic, but principally provide resources and training
+in R and python.
+
+NHS-OA is hosted by [The Strategy Unit](https://www.strategyunitwm.nhs.uk/)
+Substack
+
+## How can I get involved?
+
+Whether you are a complete novice at coding or a seasoned professional, a 
+senior leader or on day one of your career, the community has something to 
+offer you!
+
+📢 Join the conversation over on [Slack](https://nhsoacommunity.slack.com)!
+📖 Check out our free online [books](books/index.qmd) and [training materials](training/index.qmd)!
+🎪 Come along to one of our [events](events/events.qmd)!
+📽️ [Watch](https://www.youtube.com/@NHSOA_Community) our previous conferences, webinars and workshops on all manner of topics!
+🪄 [Contribute](https://github.com/nhs-oa-community) to our codebases - including this website!
+😎 Join the [committee](mailto: openanalytics.community@nhs.net) and have your say on how we run!

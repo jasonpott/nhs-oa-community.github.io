@@ -14,8 +14,7 @@ website:
   repo-actions: [edit, issue]
   navbar:
     toggle-position: right
-    logo-href: https://nhsrcommunity.com/
-    logo: https://raw.githubusercontent.com/nhs-oa-community/assets/main/logo/oa-logo_basic.png
+    logo: https://raw.githubusercontent.com/nhs-oa-community/assets/main/logo/logo_basic.png
     logo-alt: "NHS-OA Community Logo which consists of the words and incorporating the OA logo"
     title: false
     collapse-below: lg
@@ -27,24 +26,26 @@ website:
         href: about.qmd
         aria-label: About page
       - text: "Events"
-        href: events.qmd
-        aria-label: Events page
+        href: events/events.qmd
+        menu:
+        - text: "Workshops and webinars"
+          href: webinars-and-workshops.qmd
+        - text: "Coffee and Coding"
+          href: coffee-and-code.qmd 
       - text: "Blogs"
         href: blog/index.qmd
-      - text: "Events and Training"
-        menu:
-        - conference.qmd
-        - webinars-and-workshops.qmd 
-        - coffee-and-code.qmd 
-        #- training.qmd 
+      - text: "Training"
+        href: training/index.qmd 
       - text: "Resources"
         menu:
         - text: "Books"
           href: books/index.qmd
-        - videos.qmd 
-        - r-packages.qmd 
+        - text: "Videos"
+          href: videos/index.qmd
+        - text: "Packages"
+          href: packages/r-packages.qmd 
       - text: "Fellowships"
-        href: fellowship.qmd
+        href: fellowships/fellowship.qmd
         aria-label: Fellowships page
       - text: "Contact Us"
         href: contact.qmd
@@ -52,24 +53,14 @@ website:
 
   page-footer:
     left: >-
-     {{< now year >}} NHS-R Community &#8729; Made with [![Quarto](https://quarto.org/quarto.png){fig-alt="Quarto logo blue round circle with a cross within the circumference" width=65px}](https://quarto.org/)
-# The now year is from a Quarto extension https://www.garrickadenbuie.com/blog/quarto-now/
+     NHS-OA Community &#8729; Made with [![Quarto](https://quarto.org/quarto.png){fig-alt="Quarto logo blue round circle with a cross within the circumference" width=65px}](https://quarto.org/)
     center: |
-      <a href="https://fosstodon.org/@NHSrCommunity" aria-label="Go to NHSR's Fosstodon page" title="mastodon" target="_blank" rel="noopener">
-        <i class="link-dark me-1" aria-hidden="true"></i> {{< fa brands mastodon >}}</a>
-      <a href="https://bsky.app/profile/nhsrcommunity.bsky.social" aria-label="Go to NHSR's Bluesky page" title="bluesky" target="_blank" rel="noopener">
-        <i class="link-dark me-1" aria-hidden="true"></i> {{< iconify fa6-brands bluesky >}}</a>
-      <a href="https://github.com/nhs-r-community" aria-label="Go to NHSR's GitHub" title="github" target="_blank" rel="noopener">
+      <a href="https://github.com/nhs-oa-community" aria-label="Go to NHS-OA's GitHub" title="github" target="_blank" rel="noopener">
         <i class="link-dark me-1" aria-hidden="true"></i> {{< fa brands github >}}</a>
-      <a href="https://soundcloud.com/nhs-r-community" aria-label="Go to NHSR's SoundCloud" title="soundcloud" target="_blank" rel="noopener">
-        <i class="link-dark me-1"aria-hidden="true"></i> {{< fa brands soundcloud >}}</a>
-      <a href="https://www.linkedin.com/in/nhs-r-community-2555a6282/" aria-label="Go to NHSR's LinkedIn" title="LinkedIn" target="_blank" rel="noopener">
+      <a href="https://www.linkedin.com/in/nhs-oa-community-2555a6282/" aria-label="Go to NHS-OA's LinkedIn" title="LinkedIn" target="_blank" rel="noopener">
         <i class="link-dark me-1" aria-hidden="true"></i> {{< fa brands linkedin >}}</a>
 
     right:
-      - text: "Accessibility"
-        href: accessibility.qmd
-        aria-label: Accessibility Commitment
       - text: "Terms and Conditions"
         href: ts-and-cs.qmd
         aria-label: Terms and Conditions
@@ -77,24 +68,11 @@ website:
         href: contact.qmd
         aria-label: Contacts on About Page
       - text: "Licence"
-        href: licence.qmd
+        href: LICENSE.md
         aria-label: Licence Details
-      - icon: rss
-        href: blog/index.xml
-        aria-label: RSS blog feed
 
 format:
-  html:
-    theme:
-      light:
-        - assets/nhsr-font.scss
-        - assets/theme-light.scss
-      dark:
-        - assets/nhsr-font.scss
-        - assets/theme-dark.scss
-    css: assets/nhsr.css
-    code-link: true
-    link-external-newwindow: true
+  html
 
 execute:
   freeze: auto
