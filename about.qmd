@@ -26,8 +26,13 @@ senior leader or on day one of your career, the community has something to
 offer you!
 
 📢 Join the conversation over on [Slack](https://nhsoacommunity.slack.com)!
+
 📖 Check out our free online [books](books/index.qmd) and [training materials](training/index.qmd)!
+
 🎪 Come along to one of our [events](events/events.qmd)!
+
 📽️ [Watch](https://www.youtube.com/@NHSOA_Community) our previous conferences, webinars and workshops on all manner of topics!
+
 🪄 [Contribute](https://github.com/nhs-oa-community) to our codebases - including this website!
+
 😎 Join the [committee](mailto: openanalytics.community@nhs.net) and have your say on how we run!
