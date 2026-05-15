@@ -1,0 +1,12 @@
+---
+title: "Blogs"
+format: html
+---
+
+We are actively seeking blog entries for the new NHS-OA community!
+If you have something you want to say, get in touch with us at 
+[openanalytics.community@nhs.net](mailto:openanalytics.community@nhs.net) - we
+can help you shape it into something really impactful and host it publicly here!
+
+To read blogs submitted to NHS-R (our progenitor organisation), please visit
+[our legacy site](https://nhsrcommunity.com/blog/)

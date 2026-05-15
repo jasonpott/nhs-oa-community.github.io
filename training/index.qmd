@@ -1,0 +1,45 @@
+---
+title: "NHS-OA Training"
+---
+
+The NHS-OA Community provides online small group training in coding on a semi-
+regular basis.  
+This training is delivred by volunteers and is typically held over two half-day
+sessions.
+Training is free of charge to those eligible to attend, which includes the groups listed below. 
+Eligibility is assessed based on the applicant submitting their application using
+an email address with a relevant domain (e.g. name@nhs.net).
+Private email addresses will not be accepted unless the applicant can prove
+retirement from one of the occupations covered by the list below.
+
+- NHS employees
+- Academics
+- Government employees
+- Civil Servants
+- Voluntary Sector/Charities
+
+## Current Training Courses (all held on MS Teams)
+
+### [Introduction to R and RStudio]()
+
+### [Intermediate R]()
+
+## Training materials
+
+All training materials are publicly available.
+This includes materials used for teaching courses that are no longer regularly
+held.
+Please see our [GitHub page](https://github.com/nhs-oa-community) for further details.
+
+## How can I see future courses and sign up?
+
+Future training events are advertised [here](/events/events.qmd) along with
+their sign-up links
+
+## Can I volunteer to host or co-host future training?
+
+Absolutely! 
+
+We'd love for more volunteers to step forwards to provide this teaching.
+All materials are provided and support is available.
+If you'd like to take part, drop us an email at [openanalytics.community\@nhs.net](mailto:openanalytics.community@nhs.net).
